@@ -2,7 +2,7 @@ def Inorder_tree_walk(x):
     if (x is not None):
         Inorder_tree_walk(x.left)
         print(x.value)
-        Inorder_tree_wal(x.right)
+        Inorder_tree_walk(x.right)
 
 def Preorder_tree_walk(x):
     if(x is not None):
